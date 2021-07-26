@@ -1,0 +1,126 @@
+http://localhost/jadwalshalat/api/admin/nama_shalat/create.php
+
+{
+  "status": true,
+  "pesan": "data berhasil disimpan",
+  "data": true
+}
+
+
+http://localhost/jadwalshalat/api/admin/nama_shalat/read.php
+
+{
+  "status": true,
+  "pesan": "data berhasil disimpan",
+  "data": [
+    {
+      "id_nama": "7",
+      "id_daerah": "1",
+      "nama_shalat": "Isya",
+      "waktu_shalat": "2021-07-26 20:00:00"
+    },
+    {
+      "id_nama": "9",
+      "id_daerah": "0",
+      "nama_shalat": "",
+      "waktu_shalat": "0000-00-00 00:00:00"
+    }
+  ]
+}
+
+http://localhost/jadwalshalat/api/admin/nama_shalat/update.php
+
+{
+  "status": true,
+  "pesan": "data berhasil diedit",
+  "data": true
+}
+
+http://localhost/jadwalshalat/api/admin/nama_shalat/delete.php
+
+{
+  "status": true,
+  "pesan": "data berhasil dihapus",
+  "data": true
+}
+
+
+http://localhost/jadwalshalat/api/admin/daerah/create.php
+
+{
+  "status": true,
+  "pesan": "data berhasil disimpan",
+  "data": true
+}
+
+http://localhost/jadwalshalat/api/admin/daerah/read.php
+
+{
+  "status": true,
+  "pesan": "data berhasil disimpan",
+  "data": [
+    {
+      "id_daerah": "1",
+      "nama_daerah": "Jakarta",
+      "id_waktu_daerah": "2"
+    },
+    {
+      "id_daerah": "2",
+      "nama_daerah": "",
+      "id_waktu_daerah": "0"
+    }
+  ]
+}
+
+http://localhost/jadwalshalat/api/admin/daerah/update.php
+
+{
+  "status": true,
+  "pesan": "data berhasil diedit",
+  "data": true
+}
+
+http://localhost/jadwalshalat/api/admin/daerah/delete.php
+
+{
+  "status": true,
+  "pesan": "data berhasil dihapus",
+  "data": true
+}
+
+http://localhost/jadwalshalat/api/admin/waktu_daerah/create.php
+
+{
+  "status": true,
+  "pesan": "data berhasil disimpan",
+  "data": true
+}
+
+http://localhost/jadwalshalat/api/admin/waktu_daerah/read.php
+
+{
+  "status": true,
+  "pesan": "data berhasil disimpan",
+  "data": [
+    {
+      "id_waktu_daerah": "2",
+      "title": ""
+    }
+  ]
+}
+
+http://localhost/jadwalshalat/api/admin/waktu_daerah/update.php
+
+{
+  "status": true,
+  "pesan": "data berhasil diedit",
+  "data": true
+}
+
+http://localhost/jadwalshalat/api/admin/waktu_daerah/delete.
+
+{
+  "status": true,
+  "pesan": "data berhasil dihapus",
+  "data": true
+}
